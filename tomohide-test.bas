@@ -16,7 +16,7 @@ Else
 End If
 
 Print "[INFO] Querying device..."
-Print #1, "*IDN?"
+Print #1, "*IDN?\r\n"
 Input #1, str_manufacturer
 Input #1, str_model
 Input #1, str_fixed
